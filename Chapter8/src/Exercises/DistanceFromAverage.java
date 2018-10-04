@@ -8,7 +8,6 @@ public class DistanceFromAverage {
 		// TODO Auto-generated method stub
 
 	double[] arrayNums = new double [20];
-	int exitChoice;
 	int total = 0;
 	int i = 0 ;
 	int avg = 0;
@@ -22,7 +21,8 @@ public class DistanceFromAverage {
 		System.out.println("Another number? to quit 99999");
 		quit=input.nextInt();
 	}
-
+	System.out.println("Total: " + total);
+	System.out.println("Avg: " + avg);
 		
 	}
 
