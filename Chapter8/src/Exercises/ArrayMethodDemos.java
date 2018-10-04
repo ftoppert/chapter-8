@@ -4,9 +4,13 @@ import java.util.Scanner;
 
 public class ArrayMethodDemos {
 
-	public static void main(String[] args) {
+	 public static void main(String[] args) {
+	}
+
+	
 		// TODO Auto-generated method stub
 	// part 1 & 2
+	 private static void displayInt(int[]array) {
 		int[] numArrays = {1,2,3,4,5,6,7,8,9,10};
 		int[] sum = {1,2,3,4,5,6,7,8,9,10};
 		int total = 0;
@@ -25,22 +29,30 @@ public class ArrayMethodDemos {
 					System.out.println("numbers in reverse order " + numArrays[j]);
 		}
 				for(int z = 0; z<stringArray.length; z++) {
-					System.out.print(stringArray[z]);
+					System.out.print(stringArray[z]);}
 		}
 			//part 3
-			
+			private static void displaySum(int[]array) {
 				int  total1 = 0;
 				System.out.println("Sum of all of the numbers is");
 
+	
+				int[] sum = null;
 				for(int i1 = 0; i1 < sum.length; i1 = i1 + 1) {
 					System.out.println( sum  [i1]);
-					total1 = total1 + sum [i1];
+					total1 = total1 + sum [i1];}
 		}
 				//part 5
+		private static void display(int[]array) {
 					double[][] newInt = null;
 					double[] arrayNums = newInt[10];
+					int total1 = 0;
+					int quit = 0;
+					int avg = 0;
 					while(quit != 999) {
 						System.out.print("enter a number >>> ");
+						Scanner input = null;
+						int i = 0;
 						arrayNums[i] = input.nextDouble();
 							total1= (int) (total1 + arrayNums[i]);
 							avg = total1/arrayNums.length;
