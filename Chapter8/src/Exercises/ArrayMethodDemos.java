@@ -14,7 +14,7 @@ public class ArrayMethodDemos {
 		int avg = 0;
 		int quit = 999999;
 		Scanner input = new Scanner(System.in);
-		
+
 		String[] stringArray = {"This ", " is " , " a " , " string ", " array"};
 		System.out.println("Print numbers first to last");
 		for(int i1 = 0; i1 < numArrays.length; i1++) {
@@ -28,7 +28,7 @@ public class ArrayMethodDemos {
 					System.out.print(stringArray[z]);
 		}
 			//part 3
-				
+			
 				int  total1 = 0;
 				System.out.println("Sum of all of the numbers is");
 
@@ -36,9 +36,8 @@ public class ArrayMethodDemos {
 					System.out.println( sum  [i1]);
 					total1 = total1 + sum [i1];
 		}
-					
+				//part 5
 					double[][] newInt = null;
-					//part 5
 					double[] arrayNums = newInt[10];
 					while(quit != 999) {
 						System.out.print("enter a number >>> ");
